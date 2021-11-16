@@ -272,6 +272,7 @@ class _ToolTipWidgetState extends State<ToolTipWidget> {
                                     widget.title != null
                                         ? Text(
                                             widget.title!,
+                                            textAlign: TextAlign.center,
                                             style: widget.titleTextStyle ??
                                                 Theme.of(context)
                                                     .textTheme
